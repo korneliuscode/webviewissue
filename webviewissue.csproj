@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+<PropertyGroup>
+    <RootNamespace>webViewIssue</RootNamespace>
+    <AssemblyName>webViewIssue</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+</PropertyGroup>
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+  <WarningLevel>0</WarningLevel>
+</PropertyGroup>
+<ItemGroup>
+    <PackageReference Include="BetterWpfControls" Version="0.12.0" />
+    <PackageReference Include="Fluent.Ribbon" Version="6.1.0.326" />
+    <PackageReference Include="GoogleAnalyticsTracker.Simple" Version="5.0.0" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="Microsoft.Toolkit.Wpf.UI.Controls.WebView" Version="5.1.1" />
+    <PackageReference Include="System.Management" Version="4.6.0" />
+  </ItemGroup>
+<ItemGroup>
+  <Folder Include="Properties\" />
+</ItemGroup>
+
+</Project>
