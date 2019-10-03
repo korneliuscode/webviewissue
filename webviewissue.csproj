@@ -15,11 +15,7 @@
   <WarningLevel>0</WarningLevel>
 </PropertyGroup>
 <ItemGroup>
-    <PackageReference Include="BetterWpfControls" Version="0.12.0" />
-    <PackageReference Include="Fluent.Ribbon" Version="6.1.0.326" />
-    <PackageReference Include="GoogleAnalyticsTracker.Simple" Version="5.0.0" />
-    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
-    <PackageReference Include="Microsoft.Toolkit.Wpf.UI.Controls.WebView" Version="5.1.1" />
+    <PackageReference Include="Microsoft.Toolkit.Wpf.UI.Controls.WebView" Version="6.0.0-preview9.1" />
     <PackageReference Include="System.Management" Version="4.6.0" />
   </ItemGroup>
 <ItemGroup>

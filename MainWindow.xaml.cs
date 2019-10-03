@@ -1,5 +1,4 @@
-﻿using Fluent;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -18,7 +17,7 @@ using System.Windows.Shapes;
 namespace webViewIssue
 {
 
-	public partial class MainWindow : RibbonWindow
+	public partial class MainWindow : Window
     {
         
         
